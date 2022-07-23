@@ -1,0 +1,153 @@
+const translationEn = (value_used = '', value_total = '') => {
+  const translation = {
+    // sidebar
+    screenshots: 'Screenshots',
+    videos: 'Videos',
+    trash: 'Trash',
+    settings: 'Settings',
+    workspace: 'Workspace',
+    new_workspace: 'New Workspace',
+    storage: 'Storage',
+    used: 'Used 25 videos out of 50',
+    increase: 'Increase',
+    search: 'Search ',
+    // settings
+    settings: 'Settings',
+    basic_settings: 'Basic settings',
+    language: 'Language',
+    select_language: 'Change language',
+    quick_save: 'Quick save',
+    connect_account: 'Connect account',
+    notifications: 'Notifications',
+    email_notifications: 'Email notifications',
+    email_notifications_sub: 'Notifications will be duplicated by mail',
+    category_notification: 'Category notification',
+    view_on_my_videos: 'View on my videos',
+    new_comment_on_my_posts: 'New comment on my posts',
+    new_answer_on_my_comment: 'New answer on my comment',
+    someone_is_sharing_my_content: 'Someone is sharing my content',
+    folder_updates: 'Folder updates',
+
+    // select
+    date: 'Date',
+    name: 'Name',
+    type: 'Type',
+    user: 'User',
+    only_owner: 'Only owner',
+    all: 'All',
+    // screenshots
+    selected_files: 'Selected files',
+    cancel: 'Cancel',
+    sort: 'Sort',
+    // screenshotItem
+    screenshot_item: 'Screenshot item',
+    shared: 'Shared',
+    copy_link: 'Copy link',
+    rename: 'Rename',
+    move: 'Move...',
+    download: 'Download',
+    delete: 'Delete',
+    comments: 'Comments',
+    viewers_can_download: 'Viewers can download',
+    public_access: 'Public access',
+    add_description: 'Add a description...',
+    comments: 'Comments',
+    new_comment: 'New comment...',
+    // trash
+    items_are_stored: 'Items are stored in the trash for 30 days',
+    empty_entire_trash: 'Empty entire trash',
+    restore: 'Restore',
+    // workspace
+    workspace: 'Workspace',
+    members: 'Members',
+    new_folder: 'New folder',
+    unpin: 'Unpin',
+    name: 'Name',
+    role: 'Role',
+    last_activity: 'Last activity',
+    new_member: 'New member',
+    basic_settings: 'Basic settings',
+    color: 'Color',
+    confidentiality: 'Confidentiality',
+    invite_new_members: 'Who can invite new members',
+    download_files: 'Download files',
+    share_files: 'Share files',
+
+    // modal
+
+    send_by_email: 'Send by email',
+    email_comma_separated: 'Email comma separated',
+    send: 'Send',
+    get_embed_code: 'Get embed code',
+    delete_screenshot: 'Delete screenshot',
+    sure_delete_screenshot: 'Are you sure you want delete screenshot?',
+    yes: 'Yes',
+    cancel: 'Cancel',
+    move_modal: 'Move',
+    folders: 'Folders',
+    delete_workspace: 'Delete workspace',
+    want_delete_workspace: 'Are you sure you want delete workspace?',
+    close: 'Close',
+    save: 'Save',
+    // profile
+
+    notifications: 'Notifications',
+    profile: 'Profile',
+    log_out: 'Log out',
+    my_profile: 'My profile',
+    first_name: 'First name',
+    last_name: 'Last name',
+    email: 'email',
+    password: 'password',
+    change_photo: 'Change photo',
+    change_password: 'Change password',
+    enter_password: 'Enter password',
+    // create workspace
+    create_workspace: 'Create a workspace',
+    enter_workspace_name: 'Please enter a workspace name',
+    next: 'Next',
+    create_first_folder: 'Create a first folder',
+    enter_folder_name: 'Please enter a folder name',
+    skip: 'Skip',
+    add_members: 'Add members',
+    create: 'Create',
+
+    //sign in, sign up
+
+    sign_in: 'Sign In',
+    sign_in_with_google: 'Sign In with Google',
+    sign_in_with_facebook: 'Sign In with Facebook',
+    or_use: 'or use your login and password',
+    remember_me: 'Remember me',
+    forgot_password: 'Forgot password?',
+    dont_have_account: 'Dont have account?',
+    sign_up: 'Sign Up',
+    confirm__password: 'Confirm Password',
+    privacy_policy: 'I agree to Terms and Privacy Policy',
+    have_an_account: 'Have an account?',
+    nickname: 'nickname',
+    fullname: 'Full name',
+    check: 'Choose',
+
+    // Subscription plan
+
+    subscription_plan: 'Subscription plan',
+    choose_plan: 'Choose a subscription plan that suits you ',
+    monthly: 'Monthly',
+    annual: 'Annual',
+    free: 'FREE',
+    current_plan: 'Сurrent plan',
+    get_25_additional_videos:
+      'For each friend you can get 25 additional videos',
+    recommended: 'Recommended',
+    premium: 'Premium',
+    active: 'Activate',
+    pay_for_a_year: 'You can pay for a year in advance(save 20%) ',
+    standart: 'Standart',
+    user_subscription: 'user',
+  };
+
+  return translation;
+};
+
+export default translationEn;
